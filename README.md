@@ -1,51 +1,123 @@
-# The School Management System Project in Laravel. 
+## **Laravel School Management System** 
 
-This system facilitates in the management of information on teachers, students, and other elements. Managing school and universities can use this type of system to manage information systematically.
+**LAVSMS** is developed for educational institutions like schools and colleges built on Laravel 8
 
-## Officials in charge (Super Admin & Admin)
-There are seven different sorts of user accounts. They are as follows:
+**SCREENSHOTS** 
 
-* Accountant
-* Teacher
-* Student
-* Parent
-## ACCOUNTING FUNCTIONS – SUPER ADMIN
-* Any record can only be deleted by Super Admin.
-* Administrators can create whatever user account they choose (Super Admin & Admin)
-* Organize students’ classes and sections.
-* Students’ grade sheets are available to view.
-* Create, edit, and manage all user profiles and accounts.
-* Exams and Grades can be created, edited, and managed.
-* Subjects can be created, edited, and managed.
-* Organize the school bulletin board
-* Notices are displayed in the dashboard’s calendar.
-* Change the system’s settings
-* Organize payments and fees
+**Dashboard**
+<img src="https://i.ibb.co/D4T0z6T/dashboard.png" alt="dashboard" border="0">
 
-## ACCOUNTANT FEATURES
-* Organize payments and fees
-* Payment Receipts Can Be Printed
+**Login**
+<img src="https://i.ibb.co/Rh1Bfwk/login.png" alt="login" border="0">
 
-## PARENT FEATURES
-* Check out the teacher’s profile.
-* View your child’s grade sheet (PDF) (Download/Print)
-* View your own child’s schedule
-* Pay attention to your own child’s payments.
-* Look at the bulletin board and the calendar to see what’s going on at school.
-* Control your own profile.
+**Student Marksheet**
+<img src="https://i.ibb.co/GCgv5ZR/marksheet.png" alt="marksheet" border="0">
 
-## INSTRUCTOR FEATURES
-* Control Your Own Class/Section
-* Manage your own subject’s exam records.
-* If you’ve been assigned as a class teacher, you can manage your timetable.
-* Control your own profile.
-* Publish Your Study Materials
+**System Settings**
+<img src="https://i.ibb.co/Kmrhw69/system-settings.png" alt="system-settings" border="0">
 
-## STUDENT FEATURES
-* Check out the teacher’s profile.
-* View your own class topics
-* View your own grades and class schedule.
-* Pay attention to the payments.
-* Check the status of your library and books.
-* Look at the bulletin board and the calendar to see what’s going on at school.
-* Control your own profile.
+**Print Marksheet**
+<div style="clear: both"> </div>
+<img src="https://i.ibb.co/5c1GHCj/capture-20210530-115521-crop.png" alt="print-marksheet">
+
+**Print Tabulation Sheet & Marksheet**
+<img src="https://i.ibb.co/QmscPfn/capture-20210530-115802.png" alt="tabulation-sheet" border="0">
+
+<hr />  
+
+There are 7 types of user accounts. They include:
+ 
+Administrators (Super Admin & Admin)
+- Librarian
+- Accountant
+- Teacher
+- Student
+- Parent
+
+**Requirements** 
+
+Check Laravel 8 Requirements https://laravel.com/docs/8.x
+
+**Installation**
+- Install dependencies (composer install)
+- Set Database Credentials & App Settings in dotenv file (.env)
+- Migrate Database (php artisan migrate)
+- Database seed (php artisan db:seed)
+
+**Login Credentials**
+After seeding. Login details as follows:
+
+| Account Type  | Username | Email | Password |
+| ------------- | -------- | ----- | -------- |
+| Super Admin | cj | cj@cj.com | cj |
+|  Admin | admin | admin@admin.com | cj |
+|  Teacher | teacher | teacher@teacher.com | cj |
+|  Parent | parent | parent@parent.com | cj |
+|  Accountant | accountant | accountant@accountant.com | cj |
+|  Student | student | student@student.com | cj |
+
+#### **FUNCTIONS OF ACCOUNTS** 
+
+**-- SUPER ADMIN**
+- Only Super Admin can delete any record
+- Create any user account
+ 
+**-- Administrators (Super Admin & Admin)**
+
+- Manage students class/sections
+- View marksheet of students
+- Create, Edit and manage all user accounts & profiles
+- Create, Edit and manage Exams & Grades
+- Create, Edit and manage Subjects
+- Manage noticeboard of school
+- Notices are visible in calendar in dashboard
+- Edit system settings
+- Manage Payments & fees
+
+**-- ACCOUNTANT**
+- Manage Payments & fees
+- Print Payment Receipts
+
+**-- LIBRARIAN**
+- Manage Books in the Library
+
+**-- TEACHER**
+- Manage Own Class/Section
+- Manage Exam Records for own Subjects
+- Manage Timetable if Assigned as Class Teacher
+- Manage own profile
+- Upload Study Materials
+
+**-- STUDENT**
+- View teacher profile
+- View own class subjects
+- View own marks and class timetable
+- View Payments
+- View library and book status
+- View noticeboard and school events in calendar
+- Manage own profile
+
+**-- PARENT**
+- View teacher profile
+- View own child's marksheet (Download/Print PDF)
+- View own child's Timetable
+- View own child's payments
+- View noticeboard and school events in calendar
+- Manage own profile
+
+### **Contributing**
+
+Your Contributions & suggestions are welcomed.
+
+### **Security Vulnerabilities**
+
+If you discover a security vulnerability within LAVSMS, please use pull request. All security vulnerabilities will be promptly addressed.
+
+***Please Note*** that some sections of this project are in the work-in-progress stage and would be updated soon. These include:
+
+- The Noticeboard/Calendar in the Dashboard Area
+- Librarian/Acountant user pages
+- Library Resources/Study Materials Upload for Students
+
+### **Contact [CJ INSPIRED]**
+- Phone : +2347068149559
